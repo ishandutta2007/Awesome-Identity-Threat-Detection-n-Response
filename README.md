@@ -58,7 +58,7 @@ Below is a comparative breakdown of top commercial ITDR platforms, sorted by **C
 
 ## 🔓 Open-Source GitHub Projects
 
-Curated list of open-source identity security tools, frameworks, and graph mappers, sorted by **GitHub Star Count (Descending)**:
+Curated list of open-source identity security tools, frameworks, and graph mappers, sorted by **GitHub Stars_Count (Descending)**:
 
 | Project 🛠️ | Description 📋 | GitHub Popularity ⭐ |
 | :--- | :--- | :--- |
