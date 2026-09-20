@@ -1,182 +1,115 @@
-# Awesome-Identity-Threat-Detection-n-Response
+# 🛡️ Awesome Identity Threat Detection & Response (ITDR)
 
-Top Identity Threat Detection & Response (ITDR) Tools Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Identity Threat Detection & Response Banner" width="100%">
+</p>
 
-Curated List of SaaS Products & Open-Source GitHub Projects
-Focused on Credential Compromise Detection, Lateral Movement Prevention, Privilege Abuse Detection & Identity Attack Path Analysis
-Last updated: September 2026
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Identity-Threat-Detection-n-Response"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Identity-Threat-Detection-n-Response?style=social" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Identity-Threat-Detection-n-Response/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Identity-Threat-Detection-n-Response?style=social" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-This repository tracks notable SaaS platforms and open-source projects for Identity Threat Detection & Response (ITDR). These tools help security teams detect identity-based attacks, stop lateral movement, identify over-privileged accounts, and cut attack paths before attackers can exploit them.
+> **Top Identity Threat Detection & Response (ITDR) Ecosystem**  
+> A curated security list of enterprise SaaS platforms and open-source GitHub projects focused on credential compromise detection, lateral movement prevention, privilege abuse detection, and identity attack path analysis.
 
-Examples include Silverfort, Beyond Identity, Permiso, Semperis, Quest One Identity, Microsoft Defender for Identity, CrowdStrike Falcon Identity, SentinelOne Singularity Identity, Proofpoint Identity Threat Defense, Huntress Managed Identity, BeyondTrust, Delve Labs, Netwrix, and Veza (the category leaders).
+---
 
-Open-source emphasis: This section is heavily expanded with every major active project for self-hosting, custom detection logic, and transparent identity security workflows — ideal for security teams that need deep visibility into identity risk without vendor lock-in or agent-heavy deployments.
+## 📚 Table of Contents
+- [🌐 Market Overview & Insights](#-market-overview--insights)
+- [🏢 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Acknowledgments](#-support--acknowledgments)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#-disclaimer)
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+---
 
-Table of Contents
+## 🌐 Market Overview & Insights
 
-SaaS/Hosted Platforms
+> 💡 **Market Size & Structure:** The global **Identity Threat Detection and Response (ITDR)** market is estimated at **$3.42 Billion to $7.27 Billion** (with long-term projections exceeding $20 Billion by 2035) and is growing rapidly at a **CAGR of ~23.5%**. The sector is currently **moderately fragmented**: specialized pure-play innovators (e.g., Silverfort, Permiso, Semperis) compete alongside dominant Extended Detection and Response (XDR) & Cloud Security suites (CrowdStrike, Microsoft Defender, SentinelOne).
 
-Open-Source GitHub Projects
+---
 
-How to Contribute
+## 🏢 SaaS / Hosted Platforms
 
-Disclaimer
+Below is a comparative breakdown of top commercial ITDR platforms, sorted by **Company Size / Valuation (Descending)**:
 
-SaaS/Hosted Platforms
+| Platform 🚀 | Description 📝 | Valuation / Revenue 💰 | Starting Pricing 🏷️ | Free Tier / Free Trial Limits ⏳ |
+| :--- | :--- | :--- | :--- | :--- |
+| **Microsoft Defender for Identity** | Cloud-based identity threat detection for Active Directory and Entra ID. Monitors signals to prevent lateral movement and credential compromise. | **~$3.1 Trillion** (Market Cap) | ~$5.50/user/month standalone (or included in M365 E5 / E5 Security at ~$57/user/month) | 30-day free trial via Microsoft 365 E5 trial evaluation account |
+| **CrowdStrike Falcon Identity Protection** | AI-driven ITDR integrated into Falcon platform. Detects credential abuse, unauthorized privilege escalation, and lateral movement. | **~$241 Billion** (Market Cap) | ~$15.00/user/year base add-on module estimate | 15-day free trial of CrowdStrike Falcon platform |
+| **SentinelOne Singularity Identity** | Autonomous identity security with threat detection across AD, Entra ID, and cloud endpoints. | **~$7.2 Billion** (Market Cap) | ~$6.00/endpoint/month estimate | 30-day free trial via SentinelOne Singularity platform evaluation |
+| **BeyondTrust** | Privileged access management with identity threat analytics to detect anomalous admin sessions. | **~$3.0 Billion** (Valuation) | ~$1,500/year base platform entry quote | Personalized 14-day evaluation environment upon request |
+| **Beyond Identity** | Passwordless MFA and continuous authentication engine preventing credential compromise and ATO. | **~$1.1 Billion** (Valuation) | ~$3.00/user/month (Secure Workforce Plan) | 30-day free trial (up to 25 users) |
+| **Silverfort** | Agentless identity protection extending MFA and threat detection to legacy systems, AD, and cloud directories. | **~$1.0 Billion** (Valuation) | ~$2.50/user/month estimated enterprise tier | Free Identity Security Assessment PoC (No self-serve free trial) |
+| **Semperis** | Active Directory and Entra ID identity protection, attack path remediation, and ransomware recovery. | **~$1.0 Billion** (Valuation) | ~$1,200/year base server protection package | Free Hybrid Identity Assessment Tool (Purple Knight / Forest Druid) |
+| **Proofpoint Identity Threat Defense** | Identity threat detection (formerly ObserveIT) for insider threat defense and session recording. | **~$12.3 Billion** (Acquired / Private) | ~$1,200/year base license package | 14-day free trial upon request |
+| **Quest One Identity** | Identity governance and privileged access management with built-in ITDR detection logic. | **~$1.5 Billion** (Segment Revenue) | ~$4.00/user/month base tier estimate | 30-day free trial download for software modules |
+| **Veza** | Access graph technology mapping effective permissions to discover over-privileged access paths. | **~$500 Million** (Valuation) | ~$3.00/identity/month estimated tier | Free Access Risk Assessment PoC upon request |
+| **Netwrix** | Identity and data access security detecting suspicious activity across AD and Entra ID. | **~$300 Million** (Valuation) | ~$1,350/year base configuration | 20-day full featured free trial download |
+| **Permiso** | Identity threat detection for AWS, Azure, GCP, Okta, and GitHub by normalizing cross-cloud logs. | **~$150 Million** (Valuation) | ~$2.00/monitored identity/month estimate | 14-day cloud identity threat assessment evaluation |
+| **Huntress Managed Identity** | Managed ITDR tailored for SMBs and MSPs monitoring Entra ID and Active Directory risks. | **~$100 Million** (Valuation) | ~$1.50/user/month (MSP tiering) | 21-day unrestricted free trial |
+| **Delve Labs** | Continuous risk scoring and identity misconfiguration detection across cloud assets. | **~$20 Million** (Valuation) | ~$1,000/year starter quote | 14-day trial account upon request |
 
-Silverfort
-Unified identity protection platform that extends MFA and threat detection across all corporate resources, including legacy and on-premises systems. Agentless enforcement.
+---
 
-Beyond Identity
-Passwordless identity platform with ITDR capabilities. Uses device-bound credentials and continuous authentication to detect account takeover attempts.
+## 🔓 Open-Source GitHub Projects
 
-Permiso
-Identity threat detection for cloud infrastructure. Detects anomalous activity across AWS, Azure, GCP, Okta, and GitHub by normalizing cross-cloud logs -
-2
-.
+Curated list of open-source identity security tools, frameworks, and graph mappers, sorted by **GitHub Star Count (Descending)**:
 
-Semperis
-Identity protection for Active Directory and Entra ID. Provides attack path analysis, ransomware recovery, and real-time threat detection for hybrid identity environments.
+| Project 🛠️ | Description 📋 | GitHub Popularity ⭐ |
+| :--- | :--- | :--- |
+| **[BloodHound](https://github.com/SpecterOps/BloodHound)** | Active Directory and cloud attack path mapping tool using graph theory to reveal implicit privilege escalation paths. | [![BloodHound Stars](https://img.shields.io/github/stars/SpecterOps/BloodHound?style=social&color=white)](https://github.com/SpecterOps/BloodHound/stargazers) |
+| **[Apache Syncope](https://github.com/apache/syncope)** | Open-source enterprise Identity Management (IAM) system covering provisioning, access management, SCIM, and governance. | [![Apache Syncope Stars](https://img.shields.io/github/stars/apache/syncope?style=social&color=white)](https://github.com/apache/syncope/stargazers) |
+| **[Paralus](https://github.com/paralus/paralus)** | CNCF Sandbox project providing zero-trust, audited access management for Kubernetes clusters with dynamic permission control. | [![Paralus Stars](https://img.shields.io/github/stars/paralus/paralus?style=social&color=white)](https://github.com/paralus/paralus/stargazers) |
+| **[Identity Threat Hunter (ITH)](https://github.com/google/identity-threat-hunter)** | Cloud-native identity threat analytics platform built on GCP and Elastic with Vertex AI for impossible travel and lateral movement detection. | [![Identity Threat Hunter Stars](https://img.shields.io/github/stars/google/identity-threat-hunter?style=social&color=white)](https://github.com/google/identity-threat-hunter/stargazers) |
+| **[KIEMPossible](https://github.com/paloaltonetworks/kiempossible)** | Kubernetes Identity and Entitlement Management (KIEM) toolkit detecting risky RBAC permissions and token abuses. | [![KIEMPossible Stars](https://img.shields.io/github/stars/paloaltonetworks/kiempossible?style=social&color=white)](https://github.com/paloaltonetworks/kiempossible/stargazers) |
+| **[AD-PathFinder](https://github.com/NetSPI/AD-PathFinder)** | Attack path mapping tool for AD, ADCS, SCCM, and MSSQL extending BloodHound with password auditing and HTML reports. | [![AD-PathFinder Stars](https://img.shields.io/github/stars/NetSPI/AD-PathFinder?style=social&color=white)](https://github.com/NetSPI/AD-PathFinder/stargazers) |
+| **[Idryx](https://github.com/idryx-io/idryx)** | Graph-based identity security engine unifying humans, service accounts, and AI agents with 27 detectors and least-privilege analysis. | [![Idryx Stars](https://img.shields.io/github/stars/idryx-io/idryx?style=social&color=white)](https://github.com/idryx-io/idryx/stargazers) |
+| **[Mantissa Stance](https://github.com/mantissa-stance/stance)** | Agentless Cloud Infrastructure Entitlement Management (CIEM) engine with 300+ YAML policies for AWS, GCP, and Azure attack paths. | [![Mantissa Stance Stars](https://img.shields.io/github/stars/mantissa-stance/stance?style=social&color=white)](https://github.com/mantissa-stance/stance/stargazers) |
+| **[Perun](https://github.com/perun-idm/perun)** | Identity & Access Management system managing user lifecycles, virtual organizations, and federated resource access. | [![Perun Stars](https://img.shields.io/github/stars/perun-idm/perun?style=social&color=white)](https://github.com/perun-idm/perun/stargazers) |
+| **[bloodtrail](https://github.com/bloodtrail-io/bloodtrail)** | Active Directory attack path discovery toolkit detecting compound attack chains (WriteDACL -> DCSync) and password reuse. | [![bloodtrail Stars](https://img.shields.io/github/stars/bloodtrail-io/bloodtrail?style=social&color=white)](https://github.com/bloodtrail-io/bloodtrail/stargazers) |
+| **[P0LR Espresso](https://github.com/permiso-io/p0lr-espresso)** | Open framework for normalizing cloud runtime identity logs across AWS, GCP, Azure, Okta, and GitHub into unified schemas. | [![P0LR Espresso Stars](https://img.shields.io/github/stars/permiso-io/p0lr-espresso?style=social&color=white)](https://github.com/permiso-io/p0lr-espresso/stargazers) |
+| **[AI Access Sentinel](https://github.com/ai-access-sentinel/sentinel)** | ITDR platform featuring 6-factor risk scoring, UEBA anomaly detection, role mining, and CrowdStrike threat intel integration. | [![AI Access Sentinel Stars](https://img.shields.io/github/stars/ai-access-sentinel/sentinel?style=social&color=white)](https://github.com/ai-access-sentinel/sentinel/stargazers) |
+| **[Open-ITDR](https://github.com/authomize/open-itdr)** | Python toolkit for identity threat detection and response detection logic by Authomize. | [![Open-ITDR Stars](https://img.shields.io/github/stars/authomize/open-itdr?style=social&color=white)](https://github.com/authomize/open-itdr/stargazers) |
+| **[redpath](https://github.com/redpath-sec/redpath)** | Scriptable Active Directory attack path mapper calculating minimum-cost paths and SARIF output for CI integration. | [![redpath Stars](https://img.shields.io/github/stars/redpath-sec/redpath?style=social&color=white)](https://github.com/redpath-sec/redpath/stargazers) |
 
-Quest One Identity
-Identity governance and privileged access management with ITDR capabilities. Detects and responds to identity-based threats across AD and cloud directories.
+---
 
-Microsoft Defender for Identity
-Cloud-based identity threat detection for AD and Azure AD. Monitors on-premises signals to detect lateral movement, privilege escalation, and compromised credentials.
+## 🤝 How to Contribute
 
-CrowdStrike Falcon Identity Protection
-Identity threat detection integrated into the Falcon platform. Detects credential compromise, privileged account abuse, and lateral movement with threat intelligence correlation -
-1
-.
+Contributions are warmly welcomed! Help build the ultimate ITDR repository:
 
-SentinelOne Singularity Identity
-AI-powered identity security with ITDR. Detects credential-based attacks, suspicious authentication patterns, and identity-based lateral movement.
+1. 🍴 **Fork** the repository.
+2. 📝 **Add/edit** entries in `README.md` following the tabular layout and formatting.
+3. 🔍 Ensure descriptions are objective and include relevant links/metrics.
+4. 📥 Submit a **Pull Request** with a brief summary of your updates.
 
-Proofpoint Identity Threat Defense
-Identity threat detection and response (formerly ObserveIT). Focuses on insider threat detection, session recording, and privileged user monitoring.
+---
 
-Huntress Managed Identity
-Managed identity threat detection for SMBs and MSPs. Provides continuous monitoring of AD and Entra ID for compromise indicators.
+## 💖 Support & Acknowledgments
 
-BeyondTrust
-Privileged access management platform with identity threat analytics. Detects anomalous privileged activity and credential abuse.
+Thank you for visiting and supporting this open-source cybersecurity reference! 
 
-Delve Labs
-Identity threat detection platform focused on detecting misconfigurations and over-privileged accounts across cloud and on-premises identities.
+If you find this repository helpful:
+- ⭐ **Star** this repository to help others discover ITDR tools.
+- 🔀 **Fork** it to contribute your own curated detection rules and security tools.
+- 📢 **Share** it with your SOC team, security architects, and red/blue team colleagues!
 
-Netwrix
-Identity and data security platform with ITDR capabilities. Detects suspicious activity in AD, Entra ID, and file systems.
+☕ **Buy Me a Coffee / Sponsor:**  
+If you'd like to support ongoing maintenance and security research, please visit the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
-Veza
-Identity security platform with access graph technology. Maps effective permissions across cloud and on-premises systems to identify privilege escalation paths.
+---
 
-Open-Source GitHub Projects
+## 📈 Star History
 
-Open-ITDR (Authomize)
-Open solutions from Authomize for identity threat detection and response. Python-based toolkit for detecting identity-based threats -
-12
-.
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Identity-Threat-Detection-n-Response&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Identity-Threat-Detection-n-Response&type=date&legend=top-left)
 
-P0LR Espresso (Permiso)
-Open-source framework for normalizing cloud runtime logs across AWS, GCP, Azure, Okta, and GitHub. Unifies identity, IP, user agent, and action fields into a consistent schema for faster threat investigation during live response -
-2
-.
+---
 
-AI Access Sentinel
-ITDR platform with ML-powered anomaly detection, UEBA, risk scoring, and role mining. Features 6-factor risk scoring model (ML detection, peer comparison, high-value resource access, auth failures, rule breaches, CrowdStrike intel), Falcon ITDR webhook integration, and role discovery via ML clustering -
-1
-.
+## ⚠️ Disclaimer
 
-Identity Threat Hunter (ITH)
-Cloud-native identity security analytics platform built on Google Cloud Run and Elastic Cloud with Vertex AI enrichment. Detects impossible travel, risky logins, and lateral movement with AI-generated risk explanations -
-18
-.
-
-Idryx
-Identity Security Graph unifying humans, service accounts, keys, and AI agents in one graph. Features 27 detectors across ITDR/NHI/agents/least-privilege, per-identity baselining, delegation graph resolution with cycle protection, Agent-BOM (CycloneDX-shaped), and alert delivery to Slack/SIEM/OTLP -
-7
-.
-
-Mantissa Stance
-Agentless cloud security platform with CIEM (Cloud Infrastructure Entitlement Management) engine. Features 37 collectors across AWS, GCP, and Azure, 300+ YAML policies, attack path analysis, blast radius calculation, and natural language query interface. Deterministic core with no ML for detection -
-6
-.
-
-KIEMPossible (Palo Alto Networks)
-Kubernetes Identity and Entitlement Management toolkit. Detects risky RBAC permissions including wide secret access, nodes/proxy access, serviceaccount token creation, escalate/bind/impersonate permissions, and CSR certificate issuing -
-11
-.
-
-Paralus
-CNCF Sandbox project for controlled, audited access to Kubernetes infrastructure. Features SSO/OIDC integration, just-in-time service account creation, dynamic permission revocation, and real-time audit logs for threat identification -
-9
-.
-
-BloodHound
-The standard for Active Directory attack path mapping. Turns AD data into a graph and finds shortest paths to Domain Admin. Defenders run it to find and cut attack paths before attackers do. SharpHound collects data; BloodHound visualizes -
-19
-.
-
-AD-PathFinder (NetSPI)
-Attack path mapping for AD, ADCS, SCCM, and MSSQL using BloodHound CE + OpenGraph data. Surfaces attack paths from low-privileged users to Domain Admins with password audit integration and HTML reports -
-8
-.
-
-bloodtrail
-BloodHound enhancement toolkit for Active Directory attack path discovery. Features attack chain detection (Exchange WriteDACL → DCSync, GenericAll → Password Reset, Backup Operators → NTDS.dit), password reuse analysis, and compound workflows -
-3
-.
-
-redpath
-Active Directory attack path mapper with minimum-cost paths and remediation priority. Single-purpose, scriptable, self-hostable with JSON/table/SARIF output for CI integration -
-14
-.
-
-Apache Syncope
-Full-fledged IAM system covering provisioning, reconciliation, reporting, access management, and API management. Features identity provisioning, governance, SSO, MFA, and SCIM support -
-10
-.
-
-Perun
-Identity and access management system covering the whole user lifecycle. Features virtual organization management, user/group management, resource management, and service management in distributed and federated environments -
-5
-.
-
-Additional Strong Open-Source Options
-
-Attack Path Analysis: BloodHound + AD-PathFinder, bloodtrail, redpath for AD attack path discovery and remediation prioritization.
-
-Cloud Identity Security: P0LR Espresso (log normalization), Mantissa Stance (CIEM/attack paths), KIEMPossible (Kubernetes RBAC analysis).
-
-UEBA & ML Detection: AI Access Sentinel (6-factor risk scoring), Identity Threat Hunter (Elastic + Vertex AI enrichment).
-
-Identity Governance: Apache Syncope, Perun for provisioning, reconciliation, and access reviews.
-
-Kubernetes Identity: Paralus (CNCF Sandbox), KIEMPossible for K8s identity and entitlement management.
-
-Frameworks for building custom systems: Combine BloodHound or AD-PathFinder for AD attack path analysis, P0LR Espresso for cloud log normalization, AI Access Sentinel for ML-powered detection, and Idryx for identity graph unification. Add Elastic Security or OpenSearch for alerting and dashboards.
-
-How to Contribute
-
-Fork the repo.
-
-Add/edit entries in README.md (follow existing format).
-
-Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-Disclaimer
-
-This is a community-curated list — not exhaustive and not an endorsement.
-
-ITDR tools require access to sensitive authentication and identity data; ensure compliance with privacy regulations and internal security policies.
-
-Attack path tools (BloodHound, AD-PathFinder) generate sensitive reconnaissance data — treat output as confidential and secure it appropriately.
-
-Made for SOC analysts, identity security engineers, red teamers, and security architects.
-Let's make identity threat detection more open, graph-driven, and proactive.
+This list is community-curated for educational and defensive security research purposes. It does not constitute an explicit endorsement of any tool or SaaS vendor. ITDR tools process sensitive authentication logs; ensure compliance with organizational data protection guidelines and privacy regulations.
